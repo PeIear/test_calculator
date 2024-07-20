@@ -30,9 +30,12 @@ def aritmetic(int_1, operation, int_2):
         result = (f"""
 Результат:
 {int_1 ** (1/int_2)}""")
-    # else:
-    #     result = 'Неверная операция'
+
+
     return result
+
+
+
 
 
 
