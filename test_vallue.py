@@ -17,9 +17,9 @@ def check_int(int):
         return result
     elif re.fullmatch(r'[-]\d+\.[1-9]\d*', str(int)) != None:
         return negative_float
-    elif re.fullmatch(r'[-]\d+\.[0]+', str(int)) != None:
+    elif re.fullmatch(r'[-]\d+\.?[0]*', str(int)) != None:
         return negative_integer
-    elif re.fullmatch(r'[+]?\d+\.[0]+', str(int)) != None:
+    elif re.fullmatch(r'[+]?\d+\.?[0]*', str(int)) != None:
         return positive_integer
 
 
