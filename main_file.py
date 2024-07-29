@@ -80,8 +80,6 @@ while i == 0:
             break
         else:
             while re.fullmatch(r'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?', float_2) == None:
-            # while int_2.isdigit() != True:
-            # Метод, проверяющий строку на наличие только цифр.
                 if float_2 == input_for_exit:
                     break_flag = True
                     break
