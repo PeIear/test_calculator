@@ -1,7 +1,8 @@
 import test_vallue
 import decimal
 
-# Основная функция выполнения всех реализованных операций
+# Основная функция для реализации всех операций из main_file. Для перевода значений в тип данных Decimal используется
+# метод Decimal из библиотеки decimal
 
 def aritmetic(float_1, operation, float_2):
     if operation == '+':
